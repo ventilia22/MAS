@@ -176,6 +176,96 @@
             transform: translateX(-50%);
         }
 
+        /*PHONE*/
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 10px;
+            }
+
+            .info-box-container {
+                display: flex-start;
+                flex-direction: column;
+                align-items: flex-start; 
+                margin-left: 2px;
+                margin-bottom: 0px;
+            }
+
+            .image-container {
+                padding-top: 0px;
+                width: 100%; 
+            }
+
+            .image-preview {
+                max-width: 98%;
+                width: 98%;
+                height: auto;
+            }
+        }
+
+        /* Small screen adjustments */
+        @media (max-width: 480px) {
+            .header .logo {
+                font-size: 23px;
+            }
+
+            .header .nav-links {
+                flex-direction:row;
+                gap: 20px;
+                align-items:flex-end;
+                margin-top: 10px;
+                position: relative;
+                font-family: 'Poppins', sans-serif;
+                padding-left: 230px;
+            }
+
+            .content {
+                flex-direction: column;
+                align-items:flex-start; 
+                height: 100%;
+                background-color: #e8d8c4;
+                padding-top: 0px;
+            }
+
+            .image-container {
+                margin-top: 0px; 
+                width: 100%;
+                padding-left: 5px;
+                padding-bottom: 35px;
+            }
+
+            .image-preview {
+                max-width: 98%;
+                width: 95%;
+            }
+
+            .info-box {
+                height: 200px;
+                padding-left: 15px;
+            }
+
+            .info-box-container {
+                width: 90%;
+                height: 10%;
+            }
+
+            label[for="image-upload"] {
+                font-size: 20px;
+                padding: 10px 30px;
+                background-image: url('static/Images/upload.png');
+                background-repeat: no-repeat;
+                background-position: left center; 
+                background-size: 33px 20px; 
+                border-radius: 30px;
+                padding-right: 10px;
+            }
+
+            #upload-form {
+                bottom: -120px;
+            }
+        }
+
     </style>
 </head>
 <body>
