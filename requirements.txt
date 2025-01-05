@@ -1,4 +1,4 @@
-﻿absl-py==2.1.0
+absl-py==2.1.0
 altair==5.5.0
 asttokens==3.0.0
 astunparse==1.6.3
@@ -71,6 +71,7 @@ parso==0.8.4
 pillow==11.0.0
 platformdirs==4.3.6
 prompt_toolkit==3.0.48
+protobuf==3.19.6
 psutil==6.1.0
 pure_eval==0.2.3
 pyarrow==18.1.0
@@ -81,6 +82,7 @@ Pygments==2.18.0
 pyparsing==3.2.0
 python-dateutil==2.9.0.post0
 pytz==2024.2
+pywin32==308
 pyzmq==26.2.0
 referencing==0.35.1
 requests==2.32.3
@@ -103,9 +105,13 @@ tensorboard-plugin-wit==1.8.1
 tensorflow-cpu==2.10.0
 tensorflow-estimator==2.10.0
 tensorflow-io-gcs-filesystem==0.31.0
+tensorflow_intel==2.10.0
 termcolor==2.5.0
 threadpoolctl==3.5.0
 toml==0.10.2
+torch==2.5.1+cu124
+torchaudio==2.5.1+cu124
+torchvision==0.20.1+cu124
 tornado==6.4.2
 tqdm==4.67.1
 traitlets==5.14.3
